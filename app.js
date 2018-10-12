@@ -2,7 +2,7 @@ const PageState = function() {
   let currentState = new homeState(this);
 
   this.init = function() {
-    // this is change to aboutState, pages inits with about state
+    // if this is change to aboutState, pages inits with about state
     this.change(new aboutState);
   } 
 
@@ -37,7 +37,7 @@ const aboutState = function(page) {
 
 //Contact State
 const contactState = function(page) {
-  document.querySelector('#heading').textContent = 'About Us';
+  document.querySelector('#heading').textContent = 'Contact Us';
   document.querySelector('#content').innerHTML = `
   <form>
     <div class="form-group">
