@@ -60,7 +60,7 @@ const page = new PageState();
 page.init();
 
 //UI Vars
-//These are links from nav bar
+
 const home = document.getElementById('home'),
       about = document.getElementById('about'),
       contact = document.getElementById('contact');
